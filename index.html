@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Urna Eletronica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="conteiner">
+        <div id="tela">
+            <div id="info-conteiner">
+                <h1>SEU VOTO PARA</h1>
+                <h2>Presidente</h2>
+                <p class="info">Número: <span>2</span><span>2</span></p>
+                <p class="info">Nome: <span>Bolsonaro</span></p>
+                <p class="info">Partido: <span>PL</span></p>
+                <p class="info">Vice-Presidente: <span>Lalalal</span></p>
+                <hr>
+                <h3>Aperte a tecla:</h3>
+                <p>CONFIRMA para CONFIRMAR este voto</p>
+                <p>CORRIGE par REINICIAR este voto</p>
+            </div>
+            <div id="imagens">
+                <div id="presidente-conteiner">
+                    <img src="img/bolsonaro.png" id="presidente">
+                    <p>Presidente</p>
+                </div>
+                <div id="vice-conteiner">
+                    <img src="img/bolsonaro.png" id="vice">
+                    <p>Vice-Presidente</p>
+                </div>
+            </div>
+        </div>
+        <div id="bnts">
+            <div id="tittle">
+                <p>Justica</p>
+                <p>Eleitoral</p>
+            </div>
+            <table>
+                <tr>
+                    <td><button class="bnt">1</button></td>
+                    <td><button class="bnt">2</button></td>
+                    <td><button class="bnt">3</button></td>
+                </tr>
+                <tr>
+                    <td><button class="bnt">4</button></td>
+                    <td><button class="bnt">5</button></td>
+                    <td><button class="bnt">6</button></td>
+                </tr>
+                <tr>
+                    <td><button class="bnt">7</button></td>
+                    <td><button class="bnt">8</button></td>
+                    <td><button class="bnt">9</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button class="bnt">0</button></td>
+                </tr>
+                <tr>
+                    <td ><button class="bnt-functions" id="branco">Branco</button></td>
+                    <td><button class="bnt-functions" id="corrigir">Corrige</button></td>
+                    <td><button class="bnt-functions" id="confirmar">Confirmar</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

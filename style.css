@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteiner {
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    padding: 25px;
+}
+
+#tela {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#tittle {
+    color: white;
+    background-color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bnts{  
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-left: 10px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#bnts table{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bnt{
+    height: 45px;
+    width: 70px;
+    color: white;
+    font-size: 16px;
+    background-color: grey;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.bnt:hover {
+    background-color: rgb(180, 180, 180)
+}
+
+.bnt-functions {
+    margin-top: 25px;
+    height: 45px;
+    width: 70px; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#confirmar {
+    height: 55px;
+    margin-top: 15px;
+    background-color: green;
+}
+
+#corrigir {
+    background-color: rgb(199, 2, 2);
+}
+
+#branco {
+    border: none;
+}
+
+#presidente-conteiner {
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 140px;
+    height: auto;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    margin-left: 100px;
+}
+
+#presidente {
+    max-width: 100%;
+}
+
+#vice-conteiner {
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 120px;
+    height: auto;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border-right: none;
+    margin-top: 2px;
+    margin-left: 120px;
+}
+
+#vice {
+    max-width: 100%;
+}
+
+#info-conteiner h1 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#info-conteiner h2 {
+    font-size: 22px;
+    margin-left: 45%;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+#info-conteiner hr{
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+
+
+
