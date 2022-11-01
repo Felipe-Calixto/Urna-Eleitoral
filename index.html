@@ -8,26 +8,40 @@
 <body>
     <div id="conteiner">
         <div id="tela">
+            <div id="tela-hide">
+                <h1>FIM</h1>
+            </div>
+            <div id="tela-nulo">
+                <h1>SEU VOTO PARA</h1>
+                <h2>Presidente</h2> 
+                <p class="info">Número: <span class="number" id="number1-nulo">#</span><span class="number" id="number2-nulo">#</span></p>
+                <h3>NÚMERO ERRADO</h3>
+                <h4>VOTO NULO</h4>
+                <hr> 
+                <h5>Aperte a tecla:</h5>
+                <p class="info-down">CONFIRMA para CONFIRMAR este voto</p>
+                <p class="info-down">CORRIGE para REINICIAR este voto</p>
+            </div>
             <div id="info-conteiner">
                 <h1>SEU VOTO PARA</h1>
                 <h2>Presidente</h2>
-                <p class="info">Número: <span class="number">2</span><span class="number">2</span></p>
-                <p class="info">Nome: <span>Bolsonaro</span></p>
-                <p class="info">Partido: <span>PL</span></p>
-                <p class="info">Vice-Presidente: <span>Lalalal</span></p>
-                <hr class="hide">
-                <hr id="linha">
+                <p class="info">Número: <span class="number" id="number1">#</span><span class="number" id="number2">#</span></p>
+                <p class="info ">Nome: <span id="presidente-name"></span></p>
+                <p class="info">Partido: <span id="partido"></span></p>
+                <p class="info">Vice-Presidente: <span id="vice-presidente"></span></p>
+                <hr id="linha" class="hide">
+                <hr id="linha-oculta">
                 <h3>Aperte a tecla:</h3>
                 <p class="info-down">CONFIRMA para CONFIRMAR este voto</p>
                 <p class="info-down">CORRIGE para REINICIAR este voto</p>
             </div>
             <div id="imagens">
                 <div id="presidente-conteiner">
-                    <img src="img/bolsonaro.png" id="presidente">
+                    <img src="img/branco.png" id="presidente">
                     <p>Presidente</p>
                 </div>
                 <div id="vice-conteiner">
-                    <img src="img/bolsonaro.png" id="vice">
+                    <img src="img/branco.png" id="vice">
                     <p>Vice-Presidente</p>
                 </div>
             </div>
@@ -39,22 +53,22 @@
             </div>
             <table>
                 <tr>
-                    <td><button class="bnt">1</button></td>
-                    <td><button class="bnt">2</button></td>
-                    <td><button class="bnt">3</button></td>
+                    <td><button class="bnt" onclick="insert(1)">1</button></td>
+                    <td><button class="bnt" onclick="insert(2)">2</button></td>
+                    <td><button class="bnt" onclick="insert(3)">3</button></td>
                 </tr>
                 <tr>
-                    <td><button class="bnt">4</button></td>
-                    <td><button class="bnt">5</button></td>
-                    <td><button class="bnt">6</button></td>
+                    <td><button class="bnt" onclick="insert(4)">4</button></td>
+                    <td><button class="bnt" onclick="insert(5)">5</button></td>
+                    <td><button class="bnt" onclick="insert(6)">6</button></td>
                 </tr>
                 <tr>
-                    <td><button class="bnt">7</button></td>
-                    <td><button class="bnt">8</button></td>
-                    <td><button class="bnt">9</button></td>
+                    <td><button class="bnt" onclick="insert(7)">7</button></td>
+                    <td><button class="bnt" onclick="insert(8)">8</button></td>
+                    <td><button class="bnt" onclick="insert(9)">9</button></td>
                 </tr>
                 <tr>
-                    <td colspan="3"><button class="bnt">0</button></td>
+                    <td colspan="3"><button class="bnt" onclick="insert(0)">0</button></td>
                 </tr>
                 <tr>
                     <td ><button class="bnt-functions" id="branco">Branco</button></td>

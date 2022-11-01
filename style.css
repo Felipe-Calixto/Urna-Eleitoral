@@ -11,6 +11,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.hide {
+    display: flex;
+}
+
 #conteiner {
     background-color: rgb(210, 210, 210);
     display: flex;
@@ -23,6 +27,59 @@ body {
     height: 400px;
     background-color: white;
     border: 2px solid black;
+}
+
+#tela-hide {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    font-size: 50px;
+}
+
+#tela-nulo {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+}
+
+#tela-nulo h1 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#tela-nulo h2 {
+    font-size: 22px;
+    margin-left: 24%;
+    margin-top: 8px;
+    margin-bottom: 30px;    
+}
+
+#tela-nulo h3 {
+    font-size: 16px;
+    margin-top: 8px; 
+}
+
+#tela-nulo h4 {
+    font-size: 26px;
+    margin-top: 80px;
+    margin-bottom: 42px; 
+    margin-left: 200px;   
+}
+
+#tela-nulo hr {
+    border: 1px solid black;
+    margin-bottom: 12px;
+}
+
+#tela-nulo h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 #tittle {
@@ -102,6 +159,10 @@ body {
     margin-left: 95px;
 }
 
+#presidente-conteiner p {
+    border-top: 2px solid black;
+}
+
 #presidente {
     max-width: 100%;
 }
@@ -116,7 +177,11 @@ body {
     text-align: center;
     border-right: none;
     margin-top: 2px;
-    margin-left: 117px;
+    margin-left: 115px;
+}
+
+#vice-conteiner p {
+    border-top: 2px solid black;
 }
 
 #vice {
@@ -139,15 +204,15 @@ body {
     margin-top: 20px;
 }
 
-.hide {
+#linha-oculta {
     border: none;
     margin-top: 80px;
 }
 
 #linha {
     position: absolute;
-    top: 60%;
-    border: 2px solid black;
+    margin-top: 65px;
+    border: 1px solid black;
     width: 378px;
 }
 
@@ -164,10 +229,15 @@ body {
 }
 
 .number {
+    display: inline-block;
+    text-align: center;
     border: 1px solid black;
     margin-right: 2px;
-    font-size: 22px;
-    padding: 1px;
+    font-size: 26px;
+    font-weight: bold;
+    width: 20px;
+    height: auto;
+    color: white;
 }
 
 
