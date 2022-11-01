@@ -42,7 +42,7 @@ function insert(num) {
 function bolsonaro() {
     nome.textContent = "Jair Bolsonaro";
     partido.textContent = "PL";
-    vice.textContent = "Hamilton Mourão";
+    vice.textContent = "Braga Netto";
     presidenteImg.setAttribute("src", "img/bolsonaro.png");
     viceImg.setAttribute("src", "img/vice-bolsonaro.png");
 }
